@@ -4,7 +4,7 @@ import PatientList from '../components/dashboard/PatientList';
 const PatientDashboard = () => {
   return (
     <div className="container">
-      <h1 className="my-4">Patient Dashboard</h1>
+      <h3 className="my-4">Patient Dashboard</h3>
       <PatientList />
     </div>
   );

@@ -49,7 +49,7 @@ const PatientList = () => {
 
   return (
     <div className="container">
-      <h2>Patient List (Page {currentPage} of {totalPages})</h2>
+      <h>Patient List (Page {currentPage} of {totalPages})</h>
 
       {/* Search input */}
       <input

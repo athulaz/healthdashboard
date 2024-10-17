@@ -23,8 +23,7 @@ const Login = () => {
   return (
 
     
-    <div className="container">
-        {/* Main Section */}
+    
         <div className="d-flex justify-content-center align-items-center p-3" style={{ backgroundColor: 'black' }}>
         <div className="row p-3 w-100" style={{ minHeight: '70vh' }}>
           <div className="col-12 col-md-6 d-flex flex-column justify-content-center text-center">
@@ -67,7 +66,7 @@ const Login = () => {
   <img
     className="mt-4 mt-md-5"
     style={{ height: 'auto', width: '100%', maxWidth: '30vh', objectFit: 'contain' }}
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhcTanjPjIG2H4eyOd_N7tZdOYCxUyOvtBe91-Q8eJ9uuhXguM08alHI0aKnVVyrIqdE&usqp=CAU"
+    src="https://cdn-icons-png.freepik.com/256/4521/4521422.png?semt=ais_hybrid"
     alt="project image"
   />
 </div>
@@ -76,7 +75,7 @@ const Login = () => {
       </div>
      
      
-    </div>
+
 
 
 
