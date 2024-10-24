@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://healthbackend-427y.onrender.com';  // Replace with your backend URL if needed
+const API_BASE_URL = 'http://localhost:5000';  // Replace with your backend URL if needed
 
 // Function to fetch patients
 export const getPatients = async (page, limit) => {
