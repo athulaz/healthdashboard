@@ -36,7 +36,7 @@ const PatientDetail = () => {
           <div className="mt-3">
             <h5>Health Records</h5>
             <p><strong>Treatments:</strong> {patient.treatments?.join(', ')}</p>
-            <p><strong>Medication History:</strong> {patient.medicationHistory?.join(', ')}</p>
+            <p><strong>Medication History:</strong> {patient.medicalHistory?.join(', ')}</p>
             <p><strong>Lab Results:</strong> {patient.labResults}</p>
           </div>
 
